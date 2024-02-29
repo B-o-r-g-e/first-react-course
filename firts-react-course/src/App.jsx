@@ -3,7 +3,7 @@
 // import Food from "./Food.jsx";
 // import Card from "./Card.jsx";
 // import Button from "./Button.jsx";
-import Student from "./Student.jsx";
+// import Student from "./Student.jsx";
 
 function App() {
     return (
@@ -15,11 +15,11 @@ function App() {
             {/*<Card/>*/}
             {/*<Card/>*/}
             {/*<Button/>*/}
-            <Student name = 'Borge' age = {30} isStudent = {true}/>
-            <Student name = 'Patrick' age = {40} isStudent = {false}/>
-            <Student name = 'Edward' age = {50} isStudent = {false}/>
-            <Student name = 'Sandy' age = {27} isStudent = {true}/>
-            <Student/>
+            {/*<Student name = 'Borge' age = {30} isStudent = {true}/>*/}
+            {/*<Student name = 'Patrick' age = {40} isStudent = {false}/>*/}
+            {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
+            {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
+            {/*<Student/>*/}
         </>
     );
 }
