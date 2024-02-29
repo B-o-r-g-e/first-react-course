@@ -9,6 +9,9 @@
     display: inline-block;
 }
 
-img {
-    height: 50px;
+.card-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
