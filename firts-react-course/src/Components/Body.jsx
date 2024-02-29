@@ -8,7 +8,11 @@ const Body = () => {
     }
 
     return (
-        <button onClick={handler}>Click me again</button>
+        <>
+            <p>{name}</p>
+            <button onClick={handler}>Click me again</button>
+        </>
+
     )
 }
 
