@@ -1,9 +1,9 @@
-import profilePic from './assets/dp.jpeg'
+import profilePic from './assets/dp2.jpeg'
 
 function Card() {
     return (
         <div className='card'>
-            <img src={profilePic} alt="profile picture"/>
+            <img src='https://via.placeholder.com/150' alt="profile picture"/>
             <h2>Borge</h2>
             <p>I Am a Developer</p>
         </div>
