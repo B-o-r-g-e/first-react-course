@@ -11,6 +11,7 @@ const Blog = () => {
     return (
         <div className="home">
             <BlogList blogs = {blogs} title = 'All Blogs' />
+            <BlogList blogs = {blogs.filter((blog) => blog.author === 'Joy')} title = "Mario's Blogs" />
         </div>
     )
 }
