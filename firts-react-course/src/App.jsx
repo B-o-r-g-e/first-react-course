@@ -4,8 +4,8 @@
 // import Card from "./Card.jsx";
 // import Student from "./Student.jsx";
 
-import Button from "./Button.jsx";
-import ModeToggler from "./ModeToggler.jsx";
+import Button from "./Components/Button.jsx";
+import ModeToggler from "./Components/ModeToggler.jsx";
 
 function App() {
     return (
