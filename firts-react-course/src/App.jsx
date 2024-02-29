@@ -5,6 +5,7 @@
 // import Student from "./Student.jsx";
 
 import Button from "./Button.jsx";
+import ModeToggler from "./ModeToggler.jsx";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
             {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
             {/*<Student/>*/}
+            <ModeToggler/>
         </>
     );
 }
