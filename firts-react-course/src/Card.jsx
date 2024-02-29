@@ -2,8 +2,8 @@ function Card() {
     return (
         <div className={card}>
             <img src="" alt="#"/>
-            <h2></h2>
-            <p></p>
+            <h2>Borge</h2>
+            <p>I Am a Developer</p>
         </div>
     )
 }
