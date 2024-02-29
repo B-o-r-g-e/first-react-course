@@ -7,6 +7,7 @@
 import Button from "./Components/Button.jsx";
 import ModeToggler from "./Components/ModeToggler.jsx";
 import Body from "./Components/Body.jsx";
+import Blog from "./Components/Blog.jsx";
 
 function App() {
     return (
@@ -25,7 +26,7 @@ function App() {
             {/*<Student/>*/}
             <ModeToggler />
             <Body />
-
+            <Blog />
         </>
     );
 }
