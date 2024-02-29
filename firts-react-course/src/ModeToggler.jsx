@@ -5,7 +5,11 @@ function ModeToggler() {
     
     function handler() {
         darkModeOn = !darkModeOn
-
+        if (darkModeOn === true) {
+            console.log('Dark Mode is On')
+        } else {
+            console.log('Light Mode is On')
+        }
     }
 
     return (
