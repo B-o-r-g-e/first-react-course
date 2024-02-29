@@ -5,7 +5,7 @@ function Food() {
     return (
         <ul>
             <li>Apple</li>
-            <li></li>
+            <li>{food1}</li>
             <li></li>
         </ul>
     )
