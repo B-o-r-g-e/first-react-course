@@ -1,6 +1,9 @@
 function Button() {
+    const handler = () => console.log('clicked')
     return (
-        <button className={'button'}>Click me</button>
+        <button className={'button'} onClick={handler}>
+            Click me
+        </button>
     )
 }
 

@@ -2,8 +2,9 @@
 // import Footer from "./Footer.jsx";
 // import Food from "./Food.jsx";
 // import Card from "./Card.jsx";
-// import Button from "./Button.jsx";
 // import Student from "./Student.jsx";
+
+import Button from "./Button.jsx";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
             {/*<Footer/>*/}
             {/*<Card/>*/}
             {/*<Card/>*/}
-            {/*<Button/>*/}
+            <Button/>
             {/*<Student name = 'Borge' age = {30} isStudent = {true}/>*/}
             {/*<Student name = 'Patrick' age = {40} isStudent = {false}/>*/}
             {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
