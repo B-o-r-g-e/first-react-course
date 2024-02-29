@@ -5,7 +5,7 @@ function Card() {
         <div className='card'>
             <img className='card-image' src='https://via.placeholder.com/150' alt="profile picture"/>
             <h2 className='card-title'>Borge</h2>
-            <p>I Am a Developer</p>
+            <p className='card-text'>I Am a Developer</p>
         </div>
     )
 }
