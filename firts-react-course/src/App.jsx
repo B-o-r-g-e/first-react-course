@@ -6,6 +6,7 @@
 
 import Button from "./Components/Button.jsx";
 import ModeToggler from "./Components/ModeToggler.jsx";
+import Body from "./Components/Body.jsx";
 
 function App() {
     return (
@@ -16,13 +17,15 @@ function App() {
             {/*<Footer/>*/}
             {/*<Card/>*/}
             {/*<Card/>*/}
-            <Button/>
+            <Button />
             {/*<Student name = 'Borge' age = {30} isStudent = {true}/>*/}
             {/*<Student name = 'Patrick' age = {40} isStudent = {false}/>*/}
             {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
             {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
             {/*<Student/>*/}
-            <ModeToggler/>
+            <ModeToggler />
+            <Body />
+
         </>
     );
 }
