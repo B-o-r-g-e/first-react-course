@@ -15,7 +15,7 @@ function App() {
             {/*<Card/>*/}
             {/*<Card/>*/}
             <Button/>
-            <Student name = 'Borge' age = {30}/>
+            <Student name = 'Borge' age = {30} isStudent = {true}/>
         </>
     );
 }
