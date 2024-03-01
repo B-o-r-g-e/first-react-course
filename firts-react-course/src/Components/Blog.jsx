@@ -9,6 +9,9 @@ const Blog = () => {
     useEffect(() => {
         fetch('http://localhost:8000/blogs')
             .then(res => {
+                if (res.ok) {
+                    throw Error('could not fetch')
+                }
                 return res.json()
             })
             .then(data => {
