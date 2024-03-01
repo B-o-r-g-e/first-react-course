@@ -18,14 +18,17 @@ const Blog = () => {
             .then(data => {
                 setBlogs(data)
                 setIsPending(false)
+                setError(null)
             })
             .catch(err => {
-                console.log(err.message)
+                setIsPending(false)
+                setError(err.message)
             })
     }, [])
 
     return (
         <div className="home">
+            {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
             {blogs && <BlogList blogs={blogs} title='All Blogs' />}
 
