@@ -22,7 +22,7 @@ const Blog = () => {
 
     return (
         <div className="home">
-            {blogs && <BlogList blogs={blogs} title='All Blogs' handleDelete={handleDelete}/>}
+            {blogs && <BlogList blogs={blogs} title='All Blogs' {/*handleDelete={handleDelete}*/}/>}
 
 
             {/*<BlogList blogs = {blogs*/}
