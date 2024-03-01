@@ -4,12 +4,13 @@ import BlogList from "./BlogList.jsx";
 const Blog = () => {
     const [blogs, setBlogs] = useState(null)
     const [isPending, setIsPending] = useState(true)
+    const [error, setError] = useState(null)
 
 
     useEffect(() => {
         fetch('http://localhost:8000/blogs')
             .then(res => {
-                if (res.ok) {
+                if (!res.ok) {
                     throw Error('could not fetch')
                 }
                 return res.json()
