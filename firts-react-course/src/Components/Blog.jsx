@@ -2,11 +2,7 @@ import {useEffect, useState} from "react";
 import BlogList from "./BlogList.jsx";
 
 const Blog = () => {
-    const [blogs, setBlogs] = useState([
-        {title: 'My new blog', body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nihil, nulla odio provident quasi repellat sit soluta voluptate voluptatem!', author: 'James', id: 1},
-        {title: 'My new website', body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nihil, nulla odio provident quasi repellat sit soluta voluptate voluptatem!', author: 'Joy', id: 2},
-        {title: 'My new cup', body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nihil, nulla odio provident quasi repellat sit soluta voluptate voluptatem!', author: 'Joy', id: 3}
-    ])
+    const [blogs, setBlogs] = useState(null)
 
     const handleDelete = (id) => {
         const newBlogs = blogs.filter(blog => blog.id !== id)
@@ -14,7 +10,10 @@ const Blog = () => {
     }
 
     useEffect(() => {
-        console.log('ran')
+        fetch('http://localhost:8000/blogs')
+            .then(res => {
+                return res.json()
+            })
     }, [])
 
     return (
