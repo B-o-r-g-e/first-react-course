@@ -74,3 +74,11 @@ body {
     color: #f32d68;
     margin-bottom: 8px;
 }
+
+.blog-preview a {
+    text-decoration: none;
+}
+
+.header a {
+    text-decoration: none;
+}
