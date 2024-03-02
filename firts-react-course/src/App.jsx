@@ -13,6 +13,7 @@ import Header from "./Components/Header.jsx";
 
 import Blog from "./Components/Blog.jsx";
 import Create from "./Components/Create.jsx";
+import BlogDetails from "./Components/BlogDetails.jsx";
 
 function App() {
     return (
@@ -40,6 +41,9 @@ function App() {
                         </Route>
                         <Route path={'/create'}>
                             <Create />
+                        </Route>
+                        <Route path={'/blogs/:id'}>
+                            <BlogDetails />
                         </Route>
                     </Switch>
                 </div>
