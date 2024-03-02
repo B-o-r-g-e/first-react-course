@@ -12,6 +12,7 @@ import Header from "./Components/Header.jsx";
 
 
 import Blog from "./Components/Blog.jsx";
+import Create from "./Components/Create.jsx";
 
 function App() {
     return (
@@ -36,6 +37,9 @@ function App() {
                     <Switch>
                         <Route path={'/'}>
                             <Blog />
+                        </Route>
+                        <Route path={'/create'}>
+                            <Create />
                         </Route>
                     </Switch>
                 </div>
