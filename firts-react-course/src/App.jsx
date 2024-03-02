@@ -35,7 +35,7 @@ function App() {
                 {/*<Blog />*/}
                 <div className={'content'}>
                     <Switch>
-                        <Route path={'/'}>
+                        <Route exact path={'/'}>
                             <Blog />
                         </Route>
                         <Route path={'/create'}>
