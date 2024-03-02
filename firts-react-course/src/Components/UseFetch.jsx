@@ -21,8 +21,10 @@ const useFetch = (url) => {
                 setError(null)
             })
             .catch(err => {
-                setIsPending(false)
-                setError(err.message)
+                err.name === 'AbortError' ?
+                    console.log('Fetch Aborted') :
+                    setIsPending(false)
+                    setError(err.message)
             })
 
         return () => abortCont.abort()
