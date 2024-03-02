@@ -32,6 +32,13 @@ function App() {
                 {/*<ModeToggler />*/}
                 {/*<Body />*/}
                 <Blog />
+                <div className={'content'}>
+                    <Switch>
+                        <Route path={'/'}>
+                            <Blog />
+                        </Route>
+                    </Switch>
+                </div>
             </>
         </Router>
     );
