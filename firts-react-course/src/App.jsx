@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
-// import Header from "./Header.jsx";
+import Header from "./Components/Header.jsx";
 // import Footer from "./Footer.jsx";
 // import Food from "./Food.jsx";
 // import Card from "./Card.jsx";
@@ -17,7 +17,7 @@ function App() {
     return (
         <Router>
             <>
-                {/*<Header/>*/}
+                <Header/>
                 {/*<Food/>*/}
                 {/*<Food/>*/}
                 {/*<Footer/>*/}
@@ -31,7 +31,7 @@ function App() {
                 {/*<Student/>*/}
                 {/*<ModeToggler />*/}
                 {/*<Body />*/}
-                <Blog />
+                {/*<Blog />*/}
                 <div className={'content'}>
                     <Switch>
                         <Route path={'/'}>
