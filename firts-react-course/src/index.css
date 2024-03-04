@@ -106,3 +106,9 @@ header ul {
     display: flex;
     list-style-type: none;
 }
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
