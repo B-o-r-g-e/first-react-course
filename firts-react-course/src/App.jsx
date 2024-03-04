@@ -14,6 +14,7 @@ import Header from "./Components/Header.jsx";
 import Blog from "./Components/Blog.jsx";
 import Create from "./Components/Create.jsx";
 import BlogDetails from "./Components/BlogDetails.jsx";
+import NotFound from "./Components/NotFound.jsx";
 
 function App() {
     return (
@@ -44,6 +45,9 @@ function App() {
                         </Route>
                         <Route path={'/blogs/:id'}>
                             <BlogDetails />
+                        </Route>
+                        <Route path={'*'}>
+                            <NotFound />
                         </Route>
                     </Switch>
                 </div>
