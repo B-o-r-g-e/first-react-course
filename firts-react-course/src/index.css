@@ -88,3 +88,7 @@ nav ul li a {
     color: #f32d68;
     margin-bottom: 10px;
 }
+
+.blog-details div {
+    margin: 20px 0;
+}
