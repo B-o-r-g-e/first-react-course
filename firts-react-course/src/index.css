@@ -94,6 +94,15 @@ nav ul li a {
     padding: 0 5px;
 }
 
+.blog-details button {
+    background: #f32d68;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-around;
