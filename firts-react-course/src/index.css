@@ -93,3 +93,16 @@ nav ul li a {
     margin: 20px 0;
     padding: 0 5px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid #afafaf;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
