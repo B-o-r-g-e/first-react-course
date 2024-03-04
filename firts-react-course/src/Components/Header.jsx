@@ -13,7 +13,6 @@ function Header() {
                     {/*<li><Link to='#'>Contact</Link></li>*/}
                 </ul>
             </nav>
-            <hr/>
         </header>
     )
 }
