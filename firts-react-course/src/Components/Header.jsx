@@ -9,8 +9,8 @@ function Header() {
                 <ul>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/create'>New Blog</Link></li>
-                    <li><Link to='#'>Services</Link></li>
-                    <li><Link to='#'>Contact</Link></li>
+                    {/*<li><Link to='#'>Services</Link></li>*/}
+                    {/*<li><Link to='#'>Contact</Link></li>*/}
                 </ul>
             </nav>
             <hr/>
