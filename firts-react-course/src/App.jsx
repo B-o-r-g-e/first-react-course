@@ -29,11 +29,11 @@ function App() {
     ]
 
     const Vegetables = [
-        {name: 'apple', calories: 40, id: 6},
-        {name: 'Banana', calories: 16, id: 7},
-        {name: 'apple', calories: 10, id: 8},
-        {name: 'apple', calories: 30, id: 9},
-        {name: 'apple', calories: 90, id: 10}
+        {name: 'Bitter Leaf', calories: 40, id: 6},
+        {name: 'Okra', calories: 16, id: 7},
+        {name: 'Water leaf', calories: 10, id: 8},
+        {name: 'Any Leaf', calories: 30, id: 9},
+        {name: 'Leaf', calories: 90, id: 10}
     ]
 
     return (
@@ -71,6 +71,7 @@ function App() {
                 {/*    </Switch>*/}
                 {/*</div>*/}
                 <List item={Fruits} category={'Fruits'} />
+                <List item={Vegetables} category={'Vegetables'} />
             </>
         // </Router>
     );

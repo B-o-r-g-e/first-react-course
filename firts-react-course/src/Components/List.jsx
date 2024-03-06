@@ -6,9 +6,10 @@ function List(props) {
 
     const listFruits = props.item
 
-    const listItem = listFruits.map(fruit =>
-        <li key={fruit.id}>
-            {fruit.name}
+    const listItem = listFruits.map(item =>
+        <li key={item.id}>
+            {item.name}: &nbsp;
+            {item.calories}
         </li>
     )
     return (
