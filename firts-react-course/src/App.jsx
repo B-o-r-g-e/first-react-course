@@ -20,7 +20,7 @@ function App() {
     return (
         <Router>
             <>
-                <Header/>
+                {/*<Header/>*/}
                 {/*<Food/>*/}
                 {/*<Food/>*/}
                 {/*<Footer/>*/}
@@ -35,22 +35,22 @@ function App() {
                 {/*<ModeToggler />*/}
                 {/*<Body />*/}
                 {/*<Blog />*/}
-                <div className={'content'}>
-                    <Switch>
-                        <Route exact path={'/'}>
-                            <Blog />
-                        </Route>
-                        <Route path={'/create'}>
-                            <Create />
-                        </Route>
-                        <Route path={'/blogs/:id'}>
-                            <BlogDetails />
-                        </Route>
-                        <Route path={'*'}>
-                            <NotFound />
-                        </Route>
-                    </Switch>
-                </div>
+                {/*<div className={'content'}>*/}
+                {/*    <Switch>*/}
+                {/*        <Route exact path={'/'}>*/}
+                {/*            <Blog />*/}
+                {/*        </Route>*/}
+                {/*        <Route path={'/create'}>*/}
+                {/*            <Create />*/}
+                {/*        </Route>*/}
+                {/*        <Route path={'/blogs/:id'}>*/}
+                {/*            <BlogDetails />*/}
+                {/*        </Route>*/}
+                {/*        <Route path={'*'}>*/}
+                {/*            <NotFound />*/}
+                {/*        </Route>*/}
+                {/*    </Switch>*/}
+                {/*</div>*/}
             </>
         </Router>
     );
