@@ -1,4 +1,6 @@
 // import Fruits from "./Fruits.jsx";
+// import PropTypes from "prop-types";
+import * as propTypes from "prop-types";
 
 function List(props) {
 
@@ -23,7 +25,14 @@ function List(props) {
     )
 }
 
-// List.propTypes =
+List.propTypes = {
+    category: propTypes.string,
+    items: propTypes.arrayOf(propTypes.shape({
+        id: propTypes.number,
+        name: propTypes.string,
+        calories: propTypes.number
+    }))
+}
 
 List.defaultProps = {
     category: 'Category',
