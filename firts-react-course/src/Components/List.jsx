@@ -1,7 +1,8 @@
-import Fruits from "./Fruits.jsx";
+// import Fruits from "./Fruits.jsx";
 
 function List() {
-    const listItem = Fruits.map(fruit =>
+    const listFruits = Fruits
+    const listItem = listFruits.map(fruit =>
         <li key={fruit.id}>
             {fruit.name}
         </li>
