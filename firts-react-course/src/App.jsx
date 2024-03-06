@@ -62,7 +62,7 @@ function App() {
                 {/*        </Route>*/}
                 {/*    </Switch>*/}
                 {/*</div>*/}
-                <List />
+                <List item={Fruits} category={'Fruits'} />
             </>
         // </Router>
     );
