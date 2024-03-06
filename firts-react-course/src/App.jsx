@@ -70,12 +70,13 @@ function App() {
                 {/*        </Route>*/}
                 {/*    </Switch>*/}
                 {/*</div>*/}
-                {
-                    Fruits.length > 0
-                        ? <List item={Fruits} category={'Fruits'} />
-                        : null
-                }
+                {/*{*/}
+                {/*    Fruits.length > 0*/}
+                {/*        ? <List item={Fruits} category={'Fruits'} />*/}
+                {/*        : null*/}
+                {/*}*/}
 
+                {Fruits.length > 0 && <List item={Fruits} category={'Fruits'} />}
                 <List item={Vegetables} category={'Vegetables'} />
             </>
         // </Router>
