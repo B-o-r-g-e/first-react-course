@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+// import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
 // import Header from "./Components/Header.jsx";
@@ -18,7 +18,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {
     return (
-        <Router>
+        // <Router>
             <>
                 {/*<Header/>*/}
                 {/*<Food/>*/}
@@ -52,7 +52,7 @@ function App() {
                 {/*    </Switch>*/}
                 {/*</div>*/}
             </>
-        </Router>
+        // </Router>
     );
 }
 
