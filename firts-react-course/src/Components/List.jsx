@@ -1,8 +1,10 @@
 import Fruits from "./Fruits.jsx";
 
-function List(props) {
-    Fruits.map(fruit => {
-
+function List() {
+    const listItem = Fruits.map(fruit => {
+        <li key={fruit.id}>
+            {fruit.name}
+        </li>
     })
 }
 
