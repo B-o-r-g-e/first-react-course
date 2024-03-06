@@ -16,6 +16,8 @@
 // import BlogDetails from "./Components/BlogDetails.jsx";
 // import NotFound from "./Components/NotFound.jsx";
 
+import List from "./Components/List.jsx";
+
 function App() {
     return (
         // <Router>
@@ -51,6 +53,7 @@ function App() {
                 {/*        </Route>*/}
                 {/*    </Switch>*/}
                 {/*</div>*/}
+                <List />
             </>
         // </Router>
     );
