@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
-import Header from "./Components/Header.jsx";
+// import Header from "./Components/Header.jsx";
 // import Footer from "./Footer.jsx";
 // import Food from "./Food.jsx";
 // import Card from "./Card.jsx";
@@ -11,10 +11,10 @@ import Header from "./Components/Header.jsx";
 // import Body from "./Components/Body.jsx";
 
 
-import Blog from "./Components/Blog.jsx";
-import Create from "./Components/Create.jsx";
-import BlogDetails from "./Components/BlogDetails.jsx";
-import NotFound from "./Components/NotFound.jsx";
+// import Blog from "./Components/Blog.jsx";
+// import Create from "./Components/Create.jsx";
+// import BlogDetails from "./Components/BlogDetails.jsx";
+// import NotFound from "./Components/NotFound.jsx";
 
 function App() {
     return (
