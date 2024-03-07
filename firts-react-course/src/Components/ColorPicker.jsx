@@ -12,6 +12,7 @@ function ColorPicker() {
             <div className="color-display" style={{background: color}}>
                 <p>Selected Color: {color}</p>
             </div>
+            <label>Select a Color</label>
             <input type="color" value={color} onChange={handleColorChange}/>
         </div>
     )
