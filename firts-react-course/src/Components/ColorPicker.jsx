@@ -3,12 +3,16 @@ import {useState} from "react";
 function ColorPicker() {
     const [color, setColor] = useState('#FFFFFF')
 
+    const handleColorChange = (event) => {
+        setColor(event.target.value)
+    }
+
     return (
-        <div className={'color-picker-container'} style={{background: color}}>
-            <div className="color-display">
+        <div className={'color-picker-container'}>
+            <div className="color-display" style={{background: color}}>
                 <p>Selected Color: {color}</p>
             </div>
-            <input type="color" value={color}/>
+            <input type="color" value={color} onChange={handleColorChange}/>
         </div>
     )
 }
