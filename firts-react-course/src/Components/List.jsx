@@ -17,17 +17,27 @@ function List(props) {
             {item.calories}
         </li>
     )
+
+    const toggle = () => {
+        setIsEmployed(!isEmployed)
+    }
+
     return (
         <>
             <h2>{category}</h2>
             <ul>
                 {listItem}
             </ul>
+
+            <p>Is Employed: { isEmployed
+                ? 'Yes'
+                : 'No' }
+            </p>
+            <button onClick={toggle}>
+                Toggle
+            </button>
         </>
-
     )
-
-
 }
 
 List.propTypes = {
