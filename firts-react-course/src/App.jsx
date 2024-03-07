@@ -8,6 +8,7 @@
 // import Student from "./Student.jsx";
 // import Button from "./Components/Button.jsx";
 import ModeToggle from "./Components/ModeToggler.jsx";
+import ColorPicker from "./Components/ColorPicker.jsx";
 // import Body from "./Components/Body.jsx";
 
 
@@ -78,6 +79,7 @@ function App() {
 
                 {/*{Fruits.length > 0 && <List item={Fruits} category={'Fruits'} />}*/}
                 {/*<List item={Vegetables} category={'Vegetables'} />*/}
+                <ColorPicker />
             </>
         // </Router>
     );
