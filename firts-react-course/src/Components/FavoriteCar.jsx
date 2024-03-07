@@ -7,7 +7,7 @@ const FavoriteCar = () => {
 
     return (
         <div>
-
+            <p>Your favorite car is: {car.year} {car.name} {car.model}</p>
         </div>
     )
 }
