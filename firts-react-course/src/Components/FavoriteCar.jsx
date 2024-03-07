@@ -5,8 +5,8 @@ const FavoriteCar = () => {
         = useState(
             {make: 'Ford', year: 2024, model: 'Mustang'})
 
-    const handleYearChange = () => {
-
+    const handleYearChange = (e) => {
+        setCar(c => ({...car, year: e.target.value}))
     }
 
     const handleMakeChange = () => {
@@ -21,7 +21,7 @@ const FavoriteCar = () => {
         <div>
             <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
 
-            <input type="number" value={car.year}/> <br/>
+            <input type="number" value={car.year} onChange={handleYearChange}/> <br/>
             <input type="text" value={car.make}/> <br/>
             <input type="text" value={car.model}/>
         </div>
