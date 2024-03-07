@@ -6,7 +6,7 @@ const FavoriteCar = () => {
             {make: 'Ford', year: 2024, model: 'Mustang'})
 
     const handleYearChange = (e) => {
-        setCar(c => ({...car, year: e.target.value}))
+        setCar(c => ({...c, year: e.target.value}))
     }
 
     const handleMakeChange = () => {
