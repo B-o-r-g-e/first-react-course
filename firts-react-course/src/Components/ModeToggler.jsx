@@ -1,7 +1,10 @@
+import {useState} from "react";
+
 function ModeToggler() {
     let darkModeOn = true
     const darkMode = <h1>Dark mode is On</h1>
     const lightMode = <h1>Light mode is On</h1>
+    const [name, setName] = useState('')
     
     function handler() {
         darkModeOn = !darkModeOn
@@ -12,12 +15,19 @@ function ModeToggler() {
         }
     }
 
+    const handleNameChange = (event) => {
+        setName(event.target.value)
+    }
+
     return (
         <div>
             {darkModeOn ? darkMode : lightMode}
             <button className={'button'} onClick={handler}>
                 Click me
             </button>
+
+            <input value={name} onChange={handleNameChange}/>
+            <p>Name: {name}</p>
         </div>
     )
 }

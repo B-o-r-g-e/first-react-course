@@ -7,7 +7,7 @@
 // import Card from "./Card.jsx";
 // import Student from "./Student.jsx";
 // import Button from "./Components/Button.jsx";
-// import ModeToggler from "./Components/ModeToggler.jsx";
+import ModeToggler from "./Components/ModeToggler.jsx";
 // import Body from "./Components/Body.jsx";
 
 
