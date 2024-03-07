@@ -20,6 +20,7 @@
 // import List from "./Components/List.jsx";
 
 import FavoriteCar from "./Components/FavoriteCar.jsx";
+import UpdateArray from "./Components/UpdateArray.jsx";
 
 function App() {
 
@@ -83,6 +84,7 @@ function App() {
                 {/*<List item={Vegetables} category={'Vegetables'} />*/}
                 {/*<ColorPicker />*/}
                 <FavoriteCar />
+                <UpdateArray />
             </>
         // </Router>
     );
