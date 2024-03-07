@@ -1,5 +1,4 @@
 import {useState} from "react";
-import list from "./List.jsx";
 
 const UpdateArray = () => {
     const [foods, setFoods] = useState(['Apple', 'Banana', 'Orange'])
@@ -12,6 +11,9 @@ const UpdateArray = () => {
                     <li key={index}>{food}</li>
                 )}
             </ul>
+
+            <input type="text" id={'foodInput'} placeholder={'Enter food name'}/>
+            <button>Add</button>
         </div>
     )
 }
