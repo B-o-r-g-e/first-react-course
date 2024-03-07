@@ -174,3 +174,15 @@ header ul {
     margin-bottom: 25px;
     transition: 0.25s ease;
 }
+
+.color-display p {
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
