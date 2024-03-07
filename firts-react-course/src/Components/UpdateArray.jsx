@@ -1,5 +1,4 @@
 import {useState} from "react";
-import fruits from "./Fruits.jsx";
 
 const UpdateArray = () => {
     const [foods, setFoods] = useState(['Apple', 'Banana', 'Orange'])
