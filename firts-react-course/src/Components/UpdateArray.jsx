@@ -3,6 +3,14 @@ import {useState} from "react";
 const UpdateArray = () => {
     const [foods, setFoods] = useState(['Apple', 'Banana', 'Orange'])
 
+    const handleAddFood = () => {
+
+    }
+
+    // const handleRemoveFood = () => {
+    //
+    // }
+
     return (
         <div>
             <h2>Lists of Foods</h2>
