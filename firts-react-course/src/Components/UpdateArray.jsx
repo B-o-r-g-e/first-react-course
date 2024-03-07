@@ -4,7 +4,10 @@ const UpdateArray = () => {
     const [foods, setFoods] = useState(['Apple', 'Banana', 'Orange'])
 
     const handleAddFood = () => {
+        let newFood = document.getElementById('foodInput').value
+        document.getElementById('foodInput').value = ''
 
+        setFoods(f => [...f, newFood])
     }
 
     // const handleRemoveFood = () => {
@@ -21,7 +24,7 @@ const UpdateArray = () => {
             </ul>
 
             <input type="text" id={'foodInput'} placeholder={'Enter food name'}/>
-            <button>Add</button>
+            <button onClick={handleAddFood}>Add</button>
         </div>
     )
 }
