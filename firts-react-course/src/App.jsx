@@ -7,7 +7,7 @@
 // import Card from "./Card.jsx";
 // import Student from "./Student.jsx";
 // import Button from "./Components/Button.jsx";
-import ModeToggler from "./Components/ModeToggler.jsx";
+import ModeToggle from "./Components/ModeToggler.jsx";
 // import Body from "./Components/Body.jsx";
 
 
@@ -16,25 +16,25 @@ import ModeToggler from "./Components/ModeToggler.jsx";
 // import BlogDetails from "./Components/BlogDetails.jsx";
 // import NotFound from "./Components/NotFound.jsx";
 
-import List from "./Components/List.jsx";
+// import List from "./Components/List.jsx";
 
 function App() {
 
-    const Fruits = [
-        {name: 'apple', calories: 40, id: 1},
-        {name: 'Banana', calories: 16, id: 2},
-        {name: 'apple', calories: 10, id: 3},
-        {name: 'apple', calories: 30, id: 4},
-        {name: 'apple', calories: 90, id: 5}
-    ]
-
-    const Vegetables = [
-        {name: 'Bitter Leaf', calories: 40, id: 6},
-        {name: 'Okra', calories: 16, id: 7},
-        {name: 'Water leaf', calories: 10, id: 8},
-        {name: 'Any Leaf', calories: 30, id: 9},
-        {name: 'Leaf', calories: 90, id: 10}
-    ]
+    // const Fruits = [
+    //     {name: 'apple', calories: 40, id: 1},
+    //     {name: 'Banana', calories: 16, id: 2},
+    //     {name: 'apple', calories: 10, id: 3},
+    //     {name: 'apple', calories: 30, id: 4},
+    //     {name: 'apple', calories: 90, id: 5}
+    // ]
+    //
+    // const Vegetables = [
+    //     {name: 'Bitter Leaf', calories: 40, id: 6},
+    //     {name: 'Okra', calories: 16, id: 7},
+    //     {name: 'Water leaf', calories: 10, id: 8},
+    //     {name: 'Any Leaf', calories: 30, id: 9},
+    //     {name: 'Leaf', calories: 90, id: 10}
+    // ]
 
     return (
         // <Router>
@@ -51,7 +51,7 @@ function App() {
                 {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
                 {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
                 {/*<Student/>*/}
-                <ModeToggler />
+                <ModeToggle />
                 {/*<Body />*/}
                 {/*<Blog />*/}
                 {/*<div className={'content'}>*/}
@@ -76,8 +76,8 @@ function App() {
                 {/*        : null*/}
                 {/*}*/}
 
-                {Fruits.length > 0 && <List item={Fruits} category={'Fruits'} />}
-                <List item={Vegetables} category={'Vegetables'} />
+                {/*{Fruits.length > 0 && <List item={Fruits} category={'Fruits'} />}*/}
+                {/*<List item={Vegetables} category={'Vegetables'} />*/}
             </>
         // </Router>
     );

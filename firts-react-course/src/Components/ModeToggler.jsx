@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-function ModeToggler() {
+function ModeToggle() {
     let darkModeOn = true
     const darkMode = <h1>Dark mode is On</h1>
     const lightMode = <h1>Light mode is On</h1>
@@ -32,4 +32,4 @@ function ModeToggler() {
     )
 }
 
-export default ModeToggler
+export default ModeToggle
