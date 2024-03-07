@@ -4,7 +4,7 @@ const UpdateArray = () => {
     const [foods, setFoods] = useState(['Apple', 'Banana', 'Orange'])
 
     const handleAddFood = () => {
-        let newFood = document.getElementById('foodInput').value
+        const newFood = document.getElementById('foodInput').value
         document.getElementById('foodInput').value = ''
 
         setFoods(f => [...f, newFood])
