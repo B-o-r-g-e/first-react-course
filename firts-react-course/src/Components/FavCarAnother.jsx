@@ -27,11 +27,15 @@ function FavCarAnother () {
         setCarModel(event.target.value)
     }
 
+    function handleRemoveCar(index) {
+        setCars(c => c.filter((_, i) => i !== index))
+    }
+
     return (
         <div>
             <h2>List of Car Objects</h2>
             <ul>
-                {cars.map((car, index) => <li key={index}>
+                {cars.map((car, index) => <li key={index} onClick={() => handleRemoveCar(index)}>
                     {car.year} {car.make} {car.model}
                 </li>)}
             </ul>
