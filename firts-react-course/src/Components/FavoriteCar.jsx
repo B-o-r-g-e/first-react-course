@@ -13,8 +13,8 @@ const FavoriteCar = () => {
         setCar(c => ({...c, make: e.target.value}))
     }
 
-    const handleModelChange = () => {
-
+    const handleModelChange = (e) => {
+        setCar(c => ({...c, model: e.target.value}))
     }
 
     return (
@@ -23,7 +23,7 @@ const FavoriteCar = () => {
 
             <input type="number" value={car.year} onChange={handleYearChange}/> <br/>
             <input type="text" value={car.make} onChange={handleMakeChange}/> <br/>
-            <input type="text" value={car.model}/>
+            <input type="text" value={car.model} onChange={handleModelChange}/>
         </div>
     )
 }
