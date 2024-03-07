@@ -1,8 +1,11 @@
 // import Fruits from "./Fruits.jsx";
 // import PropTypes from "prop-types";
 import * as propTypes from "prop-types";
+import {useState} from "react";
 
 function List(props) {
+
+    const [isEmployed, setIsEmployed] = useState(false)
 
     const category = props.category
 
@@ -23,6 +26,8 @@ function List(props) {
         </>
 
     )
+
+
 }
 
 List.propTypes = {
