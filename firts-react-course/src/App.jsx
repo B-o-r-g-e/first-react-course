@@ -51,7 +51,7 @@ function App() {
                 {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
                 {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
                 {/*<Student/>*/}
-                {/*<ModeToggler />*/}
+                <ModeToggler />
                 {/*<Body />*/}
                 {/*<Blog />*/}
                 {/*<div className={'content'}>*/}
