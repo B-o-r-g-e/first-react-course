@@ -8,7 +8,7 @@
 // import Student from "./Student.jsx";
 // import Button from "./Components/Button.jsx";
 import ModeToggle from "./Components/ModeToggler.jsx";
-import ColorPicker from "./Components/ColorPicker.jsx";
+// import ColorPicker from "./Components/ColorPicker.jsx";
 // import Body from "./Components/Body.jsx";
 
 
@@ -52,7 +52,7 @@ function App() {
                 {/*<Student name = 'Edward' age = {50} isStudent = {false}/>*/}
                 {/*<Student name = 'Sandy' age = {27} isStudent = {true}/>*/}
                 {/*<Student/>*/}
-                <ModeToggle />
+                {/*<ModeToggle />*/}
                 {/*<Body />*/}
                 {/*<Blog />*/}
                 {/*<div className={'content'}>*/}
