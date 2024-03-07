@@ -7,8 +7,8 @@
 // import Card from "./Card.jsx";
 // import Student from "./Student.jsx";
 // import Button from "./Components/Button.jsx";
-import ModeToggle from "./Components/ModeToggler.jsx";
-// import ColorPicker from "./Components/ColorPicker.jsx";
+// import ModeToggle from "./Components/ModeToggle.jsx";
+import ColorPicker from "./Components/ColorPicker.jsx";
 // import Body from "./Components/Body.jsx";
 
 
