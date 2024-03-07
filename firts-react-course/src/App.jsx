@@ -21,6 +21,7 @@
 
 import FavoriteCar from "./Components/FavoriteCar.jsx";
 import UpdateArray from "./Components/UpdateArray.jsx";
+import FavoriteCarAnother from "./Components/FavCarAnother.jsx";
 
 function App() {
 
@@ -85,6 +86,7 @@ function App() {
                 {/*<ColorPicker />*/}
                 <FavoriteCar />
                 <UpdateArray />
+                <FavoriteCarAnother />
             </>
         // </Router>
     );
