@@ -10,7 +10,11 @@ const FavoriteCar = () => {
     }
 
     const handleMakeChange = (e) => {
-        setCar(c => ({...c, make: e.target.value}))
+        setCar(
+            c => ({
+                ...c, make: e.target.value
+            })
+        )
     }
 
     const handleModelChange = (e) => {
