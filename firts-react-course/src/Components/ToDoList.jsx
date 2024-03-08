@@ -1,6 +1,7 @@
 import {useState} from "react";
 
 function ToDoList() {
+    const [tasks, setTasks] = useState([])
     const [newTask, setNewTask] = useState('')
 
     function handleInputChange() {
@@ -25,7 +26,15 @@ function ToDoList() {
                 <button className={'add-button'} onClick={addTask}>Add</button>
             </div>
 
+            <ol>
+                {
+                    tasks.map((task, index) =>
+                        <li key={index}>
 
+                        </li>
+                    )
+                }
+            </ol>
         </div>
     )
 }
