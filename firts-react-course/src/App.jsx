@@ -22,7 +22,8 @@
 import FavoriteCar from "./Components/FavoriteCar.jsx";
 import UpdateArray from "./Components/UpdateArray.jsx";
 import FavoriteCarAnother from "./Components/FavCarAnother.jsx";
-import ToDoList from "./Components/ToDoList.jsx";
+// import ToDoList from "./Components/ToDoList.jsx";
+import FirstEffect from "./Components/FirstEffect.jsx";
 
 function App() {
 
@@ -88,7 +89,8 @@ function App() {
                 <FavoriteCar />
                 <UpdateArray />
                 <FavoriteCarAnother />
-                <ToDoList />
+                {/*<ToDoList />*/}
+                <FirstEffect />
             </>
         // </Router>
     );
