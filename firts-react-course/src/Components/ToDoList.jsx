@@ -6,11 +6,11 @@ function ToDoList() {
 
     function handleInputChange(event) {
         setNewTask(event.target.value)
-        setNewTask('')
     }
 
     function addTask() {
         setTasks(t =>[...t, newTask])
+        setNewTask("")
     }
 
     function deleteTask(index) {
@@ -32,7 +32,7 @@ function ToDoList() {
 
             <div>
                 <input type="text"
-                       placeholder={'Enter a task'}
+                       placeholder={"Enter a task"}
                        value={newTask}
                        onChange={handleInputChange}
                 />
