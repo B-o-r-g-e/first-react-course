@@ -248,3 +248,8 @@ input [type='color'] {
     border-radius: 5px;
     color: hsla(0, 0%, 0%, 0.5);
 }
+
+.to-do-list ol {
+    padding: 0;
+}
+
