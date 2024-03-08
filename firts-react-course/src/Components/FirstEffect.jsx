@@ -1,9 +1,11 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 function FirstEffect() {
     const [count, setCount] = useState(0)
 
-
+    useEffect(() => {
+        document.title = `Count: ${count}`
+    });
 
     function addCount() {
         setCount(c => c + 1)
