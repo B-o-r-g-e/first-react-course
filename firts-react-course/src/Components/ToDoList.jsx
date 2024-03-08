@@ -38,7 +38,7 @@ function ToDoList() {
                 <button className={'add-button'} onClick={addTask}>Add</button>
             </div>
 
-            <ol>
+            <ul>
                 {
                     tasks.map((task, index) =>
                         <li key={index}>
@@ -49,7 +49,7 @@ function ToDoList() {
                         </li>
                     )
                 }
-            </ol>
+            </ul>
         </div>
     )
 }
