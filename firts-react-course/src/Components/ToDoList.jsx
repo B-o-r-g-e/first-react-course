@@ -4,8 +4,8 @@ function ToDoList() {
     const [tasks, setTasks] = useState(['Joy'])
     const [newTask, setNewTask] = useState('')
 
-    function handleInputChange() {
-
+    function handleInputChange(event) {
+        setNewTask(event.target.value)
     }
 
     function addTask() {
