@@ -6,10 +6,11 @@ function ToDoList() {
 
     function handleInputChange(event) {
         setNewTask(event.target.value)
+        setNewTask('')
     }
 
     function addTask() {
-
+        setTasks(t =>[...t, newTask])
     }
 
     function deleteTask(index) {
