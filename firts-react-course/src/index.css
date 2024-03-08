@@ -194,3 +194,22 @@ input [type='color'] {
     border-radius: 10px;
     border: 3px solid hsl(0, 0%, 80%);
 }
+
+.to-do-list {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.to-do-list h1 {
+    font-size: 4rem;
+}
+
+.to-do-list button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
