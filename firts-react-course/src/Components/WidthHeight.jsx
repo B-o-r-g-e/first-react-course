@@ -12,6 +12,10 @@ const WidthHeight = () => {
         }
     }, []);
 
+    useEffect(() => {
+        document.title = `Size: ${width} x ${height}`
+    }, [width, height])
+
     function handleResize(){
         setWidth(window.innerWidth)
         setHeight(window.innerHeight)
