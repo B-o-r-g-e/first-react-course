@@ -26,6 +26,8 @@
 // import FirstEffect from "./Components/FirstEffect.jsx";
 // import WidthHeight from "./Components/WidthHeight.jsx";
 
+import DigitalClock from "./Components/DigitalClock.jsx";
+
 function App() {
 
     // const Fruits = [
@@ -93,6 +95,7 @@ function App() {
                 {/*<ToDoList />*/}
                 {/*<FirstEffect />*/}
                 {/*<WidthHeight />*/}
+                <DigitalClock />
             </>
         // </Router>
     );
