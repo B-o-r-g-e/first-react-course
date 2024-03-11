@@ -24,6 +24,7 @@ import UpdateArray from "./Components/UpdateArray.jsx";
 import FavoriteCarAnother from "./Components/FavCarAnother.jsx";
 // import ToDoList from "./Components/ToDoList.jsx";
 import FirstEffect from "./Components/FirstEffect.jsx";
+import WidthHeight from "./Components/WidthHeight.jsx";
 
 function App() {
 
@@ -91,6 +92,7 @@ function App() {
                 <FavoriteCarAnother />
                 {/*<ToDoList />*/}
                 <FirstEffect />
+                <WidthHeight />
             </>
         // </Router>
     );
