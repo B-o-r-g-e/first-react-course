@@ -21,7 +21,11 @@ const DigitalClock = () => {
 
         hours = hours % 12 || 12
 
-        return `${hours}:${minute}:${seconds} ${meridiem}`
+        return `${padZero(hours)}:${padZero(minute)}:${padZero(seconds)} ${meridiem}`
+    }
+
+    function padZero(number) {
+        return (number < 10 ? 'O' : '') + number
     }
 
     return (
