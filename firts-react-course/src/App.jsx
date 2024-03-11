@@ -26,7 +26,9 @@
 // import FirstEffect from "./Components/FirstEffect.jsx";
 // import WidthHeight from "./Components/WidthHeight.jsx";
 
-import DigitalClock from "./Components/DigitalClock.jsx";
+// import DigitalClock from "./Components/DigitalClock.jsx";
+
+import ComponentA from "./Components/ComponentA.jsx";
 
 function App() {
 
@@ -95,7 +97,8 @@ function App() {
                 {/*<ToDoList />*/}
                 {/*<FirstEffect />*/}
                 {/*<WidthHeight />*/}
-                <DigitalClock />
+                {/*<DigitalClock />*/}
+                <ComponentA />
             </>
         // </Router>
     );
