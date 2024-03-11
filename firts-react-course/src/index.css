@@ -300,4 +300,5 @@ input [type='color'] {
 
 .box {
     border: 3px solid black;
+    padding: 25px;
 }
