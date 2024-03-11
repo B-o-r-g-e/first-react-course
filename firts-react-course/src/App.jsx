@@ -19,12 +19,12 @@
 
 // import List from "./Components/List.jsx";
 
-import FavoriteCar from "./Components/FavoriteCar.jsx";
-import UpdateArray from "./Components/UpdateArray.jsx";
-import FavoriteCarAnother from "./Components/FavCarAnother.jsx";
-// import ToDoList from "./Components/ToDoList.jsx";
-import FirstEffect from "./Components/FirstEffect.jsx";
-import WidthHeight from "./Components/WidthHeight.jsx";
+// import FavoriteCar from "./Components/FavoriteCar.jsx";
+// import UpdateArray from "./Components/UpdateArray.jsx";
+// import FavoriteCarAnother from "./Components/FavCarAnother.jsx";
+// // import ToDoList from "./Components/ToDoList.jsx";
+// import FirstEffect from "./Components/FirstEffect.jsx";
+// import WidthHeight from "./Components/WidthHeight.jsx";
 
 function App() {
 
@@ -87,12 +87,12 @@ function App() {
                 {/*{Fruits.length > 0 && <List item={Fruits} category={'Fruits'} />}*/}
                 {/*<List item={Vegetables} category={'Vegetables'} />*/}
                 {/*<ColorPicker />*/}
-                <FavoriteCar />
-                <UpdateArray />
-                <FavoriteCarAnother />
+                {/*<FavoriteCar />*/}
+                {/*<UpdateArray />*/}
+                {/*<FavoriteCarAnother />*/}
                 {/*<ToDoList />*/}
-                <FirstEffect />
-                <WidthHeight />
+                {/*<FirstEffect />*/}
+                {/*<WidthHeight />*/}
             </>
         // </Router>
     );
