@@ -28,7 +28,8 @@
 
 // import DigitalClock from "./Components/DigitalClock.jsx";
 
-import ComponentA from "./Components/ComponentA.jsx";
+// import ComponentA from "./Components/ComponentA.jsx";
+import UseRef from "./Components/UseRef.jsx";
 
 function App() {
 
@@ -98,7 +99,8 @@ function App() {
                 {/*<FirstEffect />*/}
                 {/*<WidthHeight />*/}
                 {/*<DigitalClock />*/}
-                <ComponentA />
+                {/*<ComponentA />*/}
+                <UseRef />
             </>
         // </Router>
     );
