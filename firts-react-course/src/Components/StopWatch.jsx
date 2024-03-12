@@ -2,21 +2,25 @@ import {useEffect, useRef, useState} from "react";
 
 function StopWatch() {
     const [isRunning, setIsRunning] = useState(false)
-    const [elapsedTime, setElapsedTime] = useState()
-    const intervalIdRef = useRef();
-    const startTimeRef = useRef();
+    const [elapsedTime, setElapsedTime] = useState(0)
+    const intervalIdRef = useRef(null);
+    const startTimeRef = useRef(0);
 
     useEffect(() => {
         if (isRunning) {
-            setInterval(() => {
-                setElapsedTime(Date.now - startTimeRef.current)
+            intervalIdRef.current = setInterval(() => {
+                setElapsedTime(Date.now() - startTimeRef.current)
             }, 10)
+        }
+
+        return () => {
+            clearInterval(intervalIdRef.current)
         }
     }, [isRunning]);
     
     function start() {
         setIsRunning(true)
-        startTimeRef.current = Date.now() - elapsedTime
+        startTimeRef.current = Date.now() - elapsedTime;
     }
     
     function stop() {
@@ -29,7 +33,12 @@ function StopWatch() {
     }
     
     function formatTime() {
-        return `00:00:00`
+        let hours = Math.floor(elapsedTime / (1000 * 60 * 60))
+        let minutes = Math.floor(elapsedTime / (1000 * 60 ) % 60)
+        let seconds = Math.floor(elapsedTime / (1000) % 60)
+        let milliseconds = Math.floor((elapsedTime % 1000) / 10)
+
+        return `${hours}:${minutes}:${seconds}:${milliseconds}`
     }
 
     return (
