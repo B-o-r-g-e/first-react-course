@@ -30,6 +30,7 @@
 
 // import ComponentA from "./Components/ComponentA.jsx";
 import UseRef from "./Components/UseRef.jsx";
+import StopWatch from "./Components/StopWatch.jsx";
 
 function App() {
 
@@ -100,7 +101,8 @@ function App() {
                 {/*<WidthHeight />*/}
                 {/*<DigitalClock />*/}
                 {/*<ComponentA />*/}
-                <UseRef />
+                {/*<UseRef />*/}
+                <StopWatch />
             </>
         // </Router>
     );
