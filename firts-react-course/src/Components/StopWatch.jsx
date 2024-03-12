@@ -8,7 +8,9 @@ function StopWatch() {
 
     useEffect(() => {
         if (isRunning) {
-
+            setInterval(() => {
+                setElapsedTime(Date.now - startTimeRef.current)
+            }, 10)
         }
     }, [isRunning]);
     
